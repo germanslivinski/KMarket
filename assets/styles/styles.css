@@ -1,0 +1,204 @@
+html {
+    font-size: 10px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #252b42;
+    margin: 0;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+.container {
+    max-width: 105rem;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    gap: 3.9rem;
+    margin-top: 2.4rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+
+    .header_logo {
+        margin-right: auto;
+        text-decoration: none;
+        color: white;
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+    
+    .header_nav .nav_list {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 2.1rem;
+        padding: 0;
+    }
+    
+    .nav_link {
+        text-decoration: none;
+        color: white;
+    }
+    .nav_link:hover {
+        text-decoration: underline;
+    }
+    
+    .header_action {
+        display: flex;
+        gap: 1.8rem;
+    }
+    
+    .action_btn {
+        border: none;
+        background: none;
+        cursor: pointer;
+    
+        .btn_img {
+           width: 1.6rem;
+           height: 1.6rem; 
+        }
+    
+    }
+}
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: white;
+
+    .hero_title {
+        font-size: 5rem;
+        font-weight: 800;
+    }
+    .hero_subtitle {
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+
+    .hero_actions {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .hero_btn1 {
+        border-radius: 2.2rem;
+        padding: 1.2rem 2.4rem;
+        border: none;
+        background-color: #f9a826;
+        color: white;
+        font-size: 1.6rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .hero_btn2 {
+        border-radius: 2.2rem;
+        border: 2px solid white;
+        padding: 1.2rem 2.4rem;
+        background-color: transparent;
+        color: white;
+        font-size: 1.6rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+
+
+    .footer_top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+ 
+    }
+    .footer_socials {
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+
+    }
+    .footer_logo {
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+    }
+
+    .social_link {
+        text-decoration: none;
+    }
+    .footer_main {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        border-top: 2px solid #364067;
+
+    }
+    .main_item {
+        text-align: start; /* Выравнивание текста по центру */
+    }
+    
+    .main_item h3 {
+        color: white;
+        margin-bottom: 1.4rem; /* Отступ снизу для заголовка */
+        font-size: 2rem; /* Размер шрифта заголовка */
+        font-weight: 700;
+    }
+    
+    .main_item ul {
+        list-style-type: none; /* Убираем маркеры списка */
+        padding: 0;
+    }
+    
+    .main_item ul li {
+        margin: 1rem 0; /* Отступы между пунктами списка */
+    }
+    
+    .main_item ul li a {
+        text-decoration: none; /* Убираем подчеркивание ссылок */
+        color: #bdbdbd; /* Цвет ссылок */
+        font-size: 1rem;
+        font-weight: 600; /* Размер шрифта ссылок */
+    }
+    .main_item p {
+        color: #bdbdbd; /* Цвет текста */
+        font-size: 1rem; /* Размер шрифта */
+        font-weight: 400; /* Насыщенность шрифта */
+    }
+}
+
+
+
